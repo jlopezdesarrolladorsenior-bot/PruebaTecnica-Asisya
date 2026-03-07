@@ -1,0 +1,32 @@
+## Visual Studio
+.vs/
+[Bb]in/
+[Ob]j/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider (JetBrains)
+.idea/
+
+## Docker
+.dockerignore
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+
+## OS Files
+.DS_Store
+Thumbs.db

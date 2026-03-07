@@ -1,0 +1,15 @@
+C:\PruebaAsisya\Asisya.Application\bin\Debug\net8.0\Asisya.Application.deps.json
+C:\PruebaAsisya\Asisya.Application\bin\Debug\net8.0\Asisya.Application.dll
+C:\PruebaAsisya\Asisya.Application\bin\Debug\net8.0\Asisya.Application.pdb
+C:\PruebaAsisya\Asisya.Application\bin\Debug\net8.0\Asisya.Domain.dll
+C:\PruebaAsisya\Asisya.Application\bin\Debug\net8.0\Asisya.Domain.pdb
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.csproj.AssemblyReference.cache
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.AssemblyInfoInputs.cache
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.AssemblyInfo.cs
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.csproj.CoreCompileInputs.cache
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.A.97D99C0A.Up2Date
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.dll
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\refint\Asisya.Application.dll
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\Asisya.Application.pdb
+C:\PruebaAsisya\Asisya.Application\obj\Debug\net8.0\ref\Asisya.Application.dll
