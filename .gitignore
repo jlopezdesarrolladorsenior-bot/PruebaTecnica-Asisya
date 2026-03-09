@@ -1,0 +1,55 @@
+## Visual Studio
+.vs/
+[Bb]in/
+[Ob]j/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider (JetBrains)
+.idea/
+
+## Docker
+.dockerignore
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+
+## OS Files
+.DS_Store
+Thumbs.db
+
+## Frontend (React + Vite)
+asisya-frontend/node_modules/
+asisya-frontend/dist/
+.eslintcache
+
+## Docker Persistence
+# Esto evita subir los archivos físicos de la base de datos (tus 100k registros)
+postgres_data/
+
+## Environment & Secrets
+.env
+.env.local
+appsettings.Development.json
+
+[Bb]in/
+[Oo]bj/
+node_modules/
+asisya-frontend/node_modules/
+asisya-frontend/dist/
+postgres_data/
+.vs/
+.vscode/

@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: asisya-db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=asisya_pass
+      - POSTGRES_DB=asisya_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  asisya-api:
+    build: 
+      context: .
+      dockerfile: Asisya.API/Dockerfile
+    container_name: asisya-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # Esta línea pisa el appsettings.json y asegura la conexión interna
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=asisya_db;Username=postgres;Password=asisya_pass
+    depends_on:
+      - db
+
+  asisya-web:
+    build:
+      context: ./asisya-frontend
+    container_name: asisya-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - asisya-api
+
+volumes:
+  postgres_data:
