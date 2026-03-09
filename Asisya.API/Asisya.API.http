@@ -1,6 +1,0 @@
-@Asisya.API_HostAddress = http://localhost:5191
-
-GET {{Asisya.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
